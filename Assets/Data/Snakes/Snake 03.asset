@@ -1,0 +1,49 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 03d2147b21f26404cb05cd3c65f5fdc2, type: 3}
+  m_Name: Snake 03
+  m_EditorClassIdentifier: 
+  snakeName: Beezlebub Jr
+  snakeNormal: {fileID: 21300000, guid: 3644827c9fff1174aa652fd35daf9e05, type: 3}
+  snakeDamage: {fileID: 21300000, guid: ba339a1988ca2f44ca3aed0cc68c01b5, type: 3}
+  snakeDead: {fileID: 21300000, guid: 35f1952091b6b2849be45c97c917affb, type: 3}
+  snakeCards:
+  - {fileID: 11400000, guid: 59f462105d479d447bdb98ebaf056aa7, type: 2}
+  - {fileID: 11400000, guid: dd21eb673a0a7f449a80757f1932569f, type: 2}
+  - {fileID: 11400000, guid: 4f0fd29b9803e2147b718ec79d8b2547, type: 2}
+  - {fileID: 11400000, guid: 4f0fd29b9803e2147b718ec79d8b2547, type: 2}
+  - {fileID: 11400000, guid: 066c82047a8f3ef4eaf0f4ded50f3a5d, type: 2}
+  - {fileID: 11400000, guid: 9cbe39d91da05d34c8de5c9b1dde25d3, type: 2}
+  - {fileID: 11400000, guid: 039203f2527104441b5dcb6f55ebf466, type: 2}
+  - {fileID: 11400000, guid: 039203f2527104441b5dcb6f55ebf466, type: 2}
+  - {fileID: 11400000, guid: 039203f2527104441b5dcb6f55ebf466, type: 2}
+  - {fileID: 11400000, guid: 039203f2527104441b5dcb6f55ebf466, type: 2}
+  - {fileID: 11400000, guid: 039203f2527104441b5dcb6f55ebf466, type: 2}
+  - {fileID: 11400000, guid: 4f0fd29b9803e2147b718ec79d8b2547, type: 2}
+  - {fileID: 11400000, guid: 4f0fd29b9803e2147b718ec79d8b2547, type: 2}
+  - {fileID: 11400000, guid: 4f0fd29b9803e2147b718ec79d8b2547, type: 2}
+  - {fileID: 11400000, guid: 4f0fd29b9803e2147b718ec79d8b2547, type: 2}
+  snakeEndPosition: 16
+  maxHP: 140
+  encounterDialogue:
+  - "Oh, crap. I\u2019m just the intern. I was hoping I wouldn\u2019t have to do
+    any work today."
+  battleDialogue:
+  - "Umm\u2026I\u2019m not very good at small talk."
+  - "I\u2019m not sure this comes under my roles and responsibilities."
+  - "I\u2019m going to have to report this to my manager."
+  deathDialogue:
+  - "This is too much work for an intern. I\u2019m quitting."
+  winDialogue:
+  - "Why don\u2019t you take this up with Carol in HR?"
+  reEncounterDialogue:
+  - "Can\u2019t you sort this out with my manager?"

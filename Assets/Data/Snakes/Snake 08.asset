@@ -1,0 +1,48 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 03d2147b21f26404cb05cd3c65f5fdc2, type: 3}
+  m_Name: Snake 08
+  m_EditorClassIdentifier: 
+  snakeName: Smelly
+  snakeNormal: {fileID: 21300000, guid: 867dc0b96e5beed438d95ea9ef9ba9a1, type: 3}
+  snakeDamage: {fileID: 21300000, guid: c22eb1a16f55aed47aa16699c31b2338, type: 3}
+  snakeDead: {fileID: 21300000, guid: 1f125927ac352b6479434ad653934622, type: 3}
+  snakeCards:
+  - {fileID: 11400000, guid: 59f462105d479d447bdb98ebaf056aa7, type: 2}
+  - {fileID: 11400000, guid: dd21eb673a0a7f449a80757f1932569f, type: 2}
+  - {fileID: 11400000, guid: 4f0fd29b9803e2147b718ec79d8b2547, type: 2}
+  - {fileID: 11400000, guid: 4f0fd29b9803e2147b718ec79d8b2547, type: 2}
+  - {fileID: 11400000, guid: 066c82047a8f3ef4eaf0f4ded50f3a5d, type: 2}
+  - {fileID: 11400000, guid: 9cbe39d91da05d34c8de5c9b1dde25d3, type: 2}
+  - {fileID: 11400000, guid: 039203f2527104441b5dcb6f55ebf466, type: 2}
+  - {fileID: 11400000, guid: 039203f2527104441b5dcb6f55ebf466, type: 2}
+  - {fileID: 11400000, guid: 039203f2527104441b5dcb6f55ebf466, type: 2}
+  - {fileID: 11400000, guid: 039203f2527104441b5dcb6f55ebf466, type: 2}
+  - {fileID: 11400000, guid: 039203f2527104441b5dcb6f55ebf466, type: 2}
+  - {fileID: 11400000, guid: 4f0fd29b9803e2147b718ec79d8b2547, type: 2}
+  - {fileID: 11400000, guid: 4f0fd29b9803e2147b718ec79d8b2547, type: 2}
+  - {fileID: 11400000, guid: 4f0fd29b9803e2147b718ec79d8b2547, type: 2}
+  - {fileID: 11400000, guid: 4f0fd29b9803e2147b718ec79d8b2547, type: 2}
+  snakeEndPosition: 56
+  maxHP: 280
+  encounterDialogue:
+  - I smell like sssuccesss!
+  battleDialogue:
+  - Did you smell that?
+  - Did you come from a garbage dump?
+  - You stink!
+  deathDialogue:
+  - That was a stinky dump.
+  winDialogue:
+  - Looks like I just took out the trash!
+  reEncounterDialogue:
+  - My perfume always brings them back.
